@@ -204,7 +204,7 @@ html {
 
 .accountblock {
   position: absolute;
-  display: flex;
+  display: block;
   align-items: center;
   justify-content: center;
   top: 7.5vh;
@@ -213,7 +213,14 @@ html {
   font-family: 'coves'
 }
 
-.accountblock span {
+.accountblock .accountrow {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 100%;
+}
+
+.accountrow span {
   width: auto;
   min-width: 2vw;
   padding-right: 0.7vw;
