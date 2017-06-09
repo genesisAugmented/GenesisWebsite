@@ -355,7 +355,7 @@ html {
 }
 
 .planetinfo{
-  	margin-top: 21vh;
+  	margin-top: 18vh;
   	margin-left: 6vw;
   	width: 90vw;
   	display: flex;
@@ -371,7 +371,7 @@ html {
   	font-family: 'coves';
 	font-size: 14px;
 	color: #fff;
-	padding-top: 5vh;
+	padding-top: 1vh;
     z-index:1000;
 }
 
@@ -420,11 +420,65 @@ html {
 
 .planets{
 	position: absolute;
+  margin-top: 27%;
+  margin-left: 4%;
+  z-index: 9000;
 }
 
-.planets{
-	width: 20%;
+.planets img{
+	width: 70%;
 }
+
+.planets .planeta{
+  width: 56%;
+  position: absolute;
+  margin-top: -38vh;
+  margin-left: 7%;
+  z-index: 9000;
+}
+
+.selectedplanet{
+  display: block;
+  width: 110px;
+  height: 110px;
+  background-color: rgba(16, 20, 21, 0.3);
+  z-index: 0;
+  position: absolute;
+  margin-top: -71%;
+  margin-left: 2.5%;
+  border-radius: 50%;
+  animation: none;
+
+  -webkit-animation:spin 0s linear infinite !important;
+  -moz-animation:spin 0s linear infinite !important;
+  animation:spin 0s linear infinite !important;
+}
+
+.textplanets{
+  margin-left: 13%;
+  margin-top: 16.2%;
+}
+.textplanets .col{
+  padding-top: 36%;
+}
+.textplanets h3{
+  font-family: 'covesb';
+  color: #fff;
+  font-size: 16px;
+  margin-top: 4vh;
+}
+.textplanets h4{
+  font-family: 'coves';
+  color: #fff;
+  margin-top: -12%;
+  font-size: 16px;
+}
+
+
+
+
+
+
 
 @keyframes animStar {
   from {
@@ -434,7 +488,6 @@ html {
     transform: translateY(-2000px);
   }
 }
-
 
 @-moz-keyframes spin { 100% { -moz-transform: rotate(360deg); } }
 @-webkit-keyframes spin { 100% { -webkit-transform: rotate(360deg); } }
