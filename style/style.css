@@ -498,17 +498,19 @@ html {
 	width: 60%;
 }
 
-.planets .planeta{
-  width: 45%;
-  position: absolute;
-  margin-top: -32vh;
-  margin-left: 7%;
-  z-index: 9000;
-  animation: none !important;
+.selectedimage{
+  width: 70% !important;
+}
+
+.selectedimage:hover{
+  width: 75% !important;
 }
 
 .selectedplanet{
-  display: block;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  vertical-align: middle;
   width: 110px;
   height: 110px;
   background-color: rgba(16, 20, 21, 0.3);
