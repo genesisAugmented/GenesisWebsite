@@ -220,12 +220,12 @@ html {
 
 .armt {
   position: absolute;
-	width: 30px;
+	width: 40px;
 	height: 1px;
 	background-color: #fff;
-	margin-top: 39.2vh;
-	margin-left: 55.2vw;
-  transform: rotate(-40deg);
+	margin-top: 38.5vh;
+	margin-left: 54.6vw;
+  transform: rotate(-60deg);
 }
 
 .armt2 {
@@ -233,17 +233,18 @@ html {
 	width: 240px;
 	height: 1px;
 	background-color: #fff;
-	margin-top: 38vh;
-	margin-left: 57vw;
+	margin-top: 36.3vh;
+	margin-left: 56.6vw;
 }
 
 .armt3 {
   position: absolute;
-  width: 5px;
-  height: 5px;
+  width: 10px;
+  height: 10px;
+  z-index: 1000;
   background-color: #fff;
   margin-top: 40.1vh;
-  margin-left: 50.785vw;
+  margin-left: 54.9vw;
   transform: rotate(40deg);
   border-radius: 50%;
 }
