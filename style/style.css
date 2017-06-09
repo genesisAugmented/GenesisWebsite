@@ -198,6 +198,10 @@ html {
 	font-size: 24px;
 }
 
+.alertmodule .alertblock:hover {
+  font-size: 30px;
+}
+
 .levelblock{
 	display: block;
 	width: 4vw;
