@@ -218,6 +218,25 @@ html {
 	border-radius: 50%;
 }
 
+.armt {
+  position: absolute;
+	width: 50px;
+	height: 1px;
+	background-color: #fff;
+	margin-top: 40vh;
+	margin-left: 54vw;
+  transform: rotate(-40deg);
+}
+
+.armt2 {
+  position: absolute;
+	width: 240px;
+	height: 1px;
+	background-color: #fff;
+	margin-top: 38vh;
+	margin-left: 57vw;
+}
+
 .greybar{
 	display: block;
 	height: 100vh;
