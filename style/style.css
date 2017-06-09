@@ -176,7 +176,7 @@ html {
 	border-radius: 5px;
 	text-align: center;
 	color: #fff;
-  	font-family: 'covesb';
+	font-family: 'covesb';
 	padding-top: 0.5%;
 	font-size: 14px;
 }
@@ -216,6 +216,108 @@ html {
 	margin-left: 43.785vw;
 	transform: rotate(40deg);
 	border-radius: 50%;
+}
+
+.armt {
+  position: absolute;
+	width: 40px;
+	height: 1px;
+	background-color: #fff;
+	margin-top: 38.5vh;
+	margin-left: 54.6vw;
+  transform: rotate(-60deg);
+}
+
+.armt2 {
+  position: absolute;
+	width: 240px;
+	height: 1px;
+	background-color: #fff;
+	margin-top: 36.3vh;
+	margin-left: 56.6vw;
+}
+
+.armt3 {
+  position: absolute;
+  width: 10px;
+  height: 10px;
+  z-index: 1000;
+  background-color: #fff;
+  margin-top: 40.1vh;
+  margin-left: 54.9vw;
+  transform: rotate(40deg);
+  border-radius: 50%;
+}
+
+.armps1 {
+  position: absolute;
+	width: 32px;
+	height: 1px;
+	background-color: #fff;
+	margin-top: 62.3vh;
+	margin-left: 54.8vw;
+  transform: rotate(50deg);
+}
+
+.armps2{
+  position: absolute;
+	width: 15px;
+	height: 1px;
+	background-color: #fff;
+	margin-top: 63.8vh;
+	margin-left: 56.6vw;
+}
+
+.armps3{
+  position: absolute;
+  width: 8px;
+  height: 8px;
+  z-index: 1000;
+  background-color: #fff;
+  margin-top: 60.4vh;
+	margin-left: 55vw;
+  transform: rotate(40deg);
+  border-radius: 50%;
+}
+
+.armcontent {
+  /*position: absolute;*/
+  width: 100%;
+	margin-top: -1.3em;
+  font-size: 2em;
+  text-align: center;
+  color: #fff;
+  font-family: 'covesb';
+  text-transform: uppercase;
+}
+
+.statparent {
+  position: absolute;
+  align-items: center;
+  justify-content: center;
+  width: auto;
+  min-width: 2vw;
+  min-height: 7vh;
+  margin-top: 54.1vh;
+  margin-left: 57.9vw;
+}
+
+.planetstat {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin: 10px 0 10px 0;
+  width: 100%;
+  min-width: 200px;
+  min-height: 40px;
+  text-align: center;
+  border-radius: 4px;
+  background-color: rgba(0, 0, 0, 0.8);
+}
+
+.planetstat span {
+  color: #FFF;
+  font-family: 'covesb';
 }
 
 .greybar{
