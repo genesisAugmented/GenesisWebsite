@@ -494,6 +494,10 @@ html {
   z-index: 9000;
 }
 
+.planets img:hover{
+  animation: pulse 2s;
+}
+
 .planets img{
 	width: 60%;
 }
