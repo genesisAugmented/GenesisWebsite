@@ -489,21 +489,22 @@ html {
 
 .planets{
 	position: absolute;
-  margin-top: 27%;
+  margin-top: 25%;
   margin-left: 4%;
   z-index: 9000;
 }
 
 .planets img{
-	width: 70%;
+	width: 60%;
 }
 
 .planets .planeta{
-  width: 56%;
+  width: 45%;
   position: absolute;
-  margin-top: -38vh;
+  margin-top: -39.5vh;
   margin-left: 7%;
   z-index: 9000;
+  animation: none !important;
 }
 
 .selectedplanet{
@@ -513,41 +514,272 @@ html {
   background-color: rgba(16, 20, 21, 0.3);
   z-index: 0;
   position: absolute;
-  margin-top: -71%;
-  margin-left: 2.5%;
+  margin-top: -14.6vh;
+  margin-left: -3%;
   border-radius: 50%;
-  animation: none;
-
-  -webkit-animation:spin 0s linear infinite !important;
-  -moz-animation:spin 0s linear infinite !important;
-  animation:spin 0s linear infinite !important;
 }
 
 .textplanets{
   margin-left: 13%;
-  margin-top: 16.2%;
+  margin-top: 16%;
 }
 .textplanets .col{
-  padding-top: 36%;
+  padding-top: 25%;
 }
 .textplanets h3{
   font-family: 'covesb';
   color: #fff;
-  font-size: 16px;
-  margin-top: 4vh;
+  font-size: 14px;
+  margin-top: 3.9vh;
 }
 .textplanets h4{
   font-family: 'coves';
   color: #fff;
-  margin-top: -12%;
-  font-size: 16px;
+  margin-top: -11%;
+  font-size: 14px;
+}
+
+.fa-globe{
+  color: #47D9EF;
+  font-size: 21px !important;
+  margin-top: -11%;
+  position: absolute;
+  margin-left: 17.5vw;
+}
+
+#loader-7 span {
+  display: inline-block;
+  height: 15px;
+  width: 40vw;
+  background: #2FAC9B;
+  border-radius: 0px;
+}
+.border-radius {
+  border-radius: 500px;
+}
+*[id*="loader-"] {
+  margin-bottom: 30px;
+
+  position: absolute;
+  margin-left: 43.5vw;
+  margin-top: 85vh;
+  z-index: 900;
+}
+
+#loader-7 span:nth-child(1) {
+  -webkit-animation: temp 1s 0.05s infinite cubic-bezier(0.005, 0.56, 0.58, 1.59);
+          animation: temp 1s 0.05s infinite cubic-bezier(0.005, 0.56, 0.58, 1.59);
+  width: 4.5px;
+  height: 4.5px;
+  margin: 0 2px;
+  border-radius: 20%;
+}
+#loader-7 span:nth-child(2) {
+  -webkit-animation: temp 1s 0.1s infinite cubic-bezier(0.005, 0.56, 0.58, 1.59);
+          animation: temp 1s 0.1s infinite cubic-bezier(0.005, 0.56, 0.58, 1.59);
+  width: 4.5px;
+  height: 4.5px;
+  margin: 0 2px;
+  border-radius: 20%;
+}
+#loader-7 span:nth-child(3) {
+  -webkit-animation: temp 1s 0.15s infinite cubic-bezier(0.005, 0.56, 0.58, 1.59);
+          animation: temp 1s 0.15s infinite cubic-bezier(0.005, 0.56, 0.58, 1.59);
+  width: 4.5px;
+  height: 4.5px;
+  margin: 0 2px;
+  border-radius: 20%;
+}
+#loader-7 span:nth-child(4) {
+  -webkit-animation: temp 1s 0.2s infinite cubic-bezier(0.005, 0.56, 0.58, 1.59);
+          animation: temp 1s 0.2s infinite cubic-bezier(0.005, 0.56, 0.58, 1.59);
+  width: 4.5px;
+  height: 4.5px;
+  margin: 0 2px;
+  border-radius: 20%;
+}
+#loader-7 span:nth-child(5) {
+  -webkit-animation: temp 1s 0.25s infinite cubic-bezier(0.005, 0.56, 0.58, 1.59);
+          animation: temp 1s 0.25s infinite cubic-bezier(0.005, 0.56, 0.58, 1.59);
+  width: 4.5px;
+  height: 4.5px;
+  margin: 0 2px;
+  border-radius: 20%;
+}
+#loader-7 span:nth-child(6) {
+  -webkit-animation: temp 1s 0.3s infinite cubic-bezier(0.005, 0.56, 0.58, 1.59);
+          animation: temp 1s 0.3s infinite cubic-bezier(0.005, 0.56, 0.58, 1.59);
+  width: 4.5px;
+  height: 4.5px;
+  margin: 0 2px;
+  border-radius: 20%;
+}
+#loader-7 span:nth-child(7) {
+  -webkit-animation: temp 1s 0.35s infinite cubic-bezier(0.005, 0.56, 0.58, 1.59);
+          animation: temp 1s 0.35s infinite cubic-bezier(0.005, 0.56, 0.58, 1.59);
+  width: 4.5px;
+  height: 4.5px;
+  margin: 0 2px;
+  border-radius: 20%;
+}
+#loader-7 span:nth-child(8) {
+  -webkit-animation: temp 1s 0.4s infinite cubic-bezier(0.005, 0.56, 0.58, 1.59);
+          animation: temp 1s 0.4s infinite cubic-bezier(0.005, 0.56, 0.58, 1.59);
+  width: 4.5px;
+  height: 4.5px;
+  margin: 0 2px;
+  border-radius: 20%;
+}
+#loader-7 span:nth-child(9) {
+  -webkit-animation: temp 1s 0.45s infinite cubic-bezier(0.005, 0.56, 0.58, 1.59);
+          animation: temp 1s 0.45s infinite cubic-bezier(0.005, 0.56, 0.58, 1.59);
+  width: 4.5px;
+  height: 4.5px;
+  margin: 0 2px;
+  border-radius: 20%;
+}
+#loader-7 span:nth-child(10) {
+  -webkit-animation: temp 1s 0.5s infinite cubic-bezier(0.005, 0.56, 0.58, 1.59);
+          animation: temp 1s 0.5s infinite cubic-bezier(0.005, 0.56, 0.58, 1.59);
+  width: 4.5px;
+  height: 4.5px;
+  margin: 0 2px;
+  border-radius: 20%;
+}
+#loader-7 span:nth-child(11) {
+  -webkit-animation: temp 1s 0.55s infinite cubic-bezier(0.005, 0.56, 0.58, 1.59);
+          3animation: temp 1s 0.55s infinite cubic-bezier(0.005, 0.56, 0.58, 1.59);
+  width: 4.5px;
+  height: 4.5px;
+  margin: 0 2px;
+  border-radius: 20%;
+}
+#loader-7 span:nth-child(12) {
+  -webkit-animation: temp 1s 0.6s infinite cubic-bezier(0.005, 0.56, 0.58, 1.59);
+          animation: temp 1s 0.6s infinite cubic-bezier(0.005, 0.56, 0.58, 1.59);
+  width: 4.5px;
+  height: 4.5px;
+  margin: 0 2px;
+  border-radius: 20%;
+}
+#loader-7 span:nth-child(13) {
+  -webkit-animation: temp 1s 0.65s infinite cubic-bezier(0.005, 0.56, 0.58, 1.59);
+          animation: temp 1s 0.65s infinite cubic-bezier(0.005, 0.56, 0.58, 1.59);
+  width: 4.5px;
+  height: 4.5px;
+  margin: 0 2px;
+  border-radius: 20%;
+}
+#loader-7 span:nth-child(14) {
+  -webkit-animation: temp 1s 0.7s infinite cubic-bezier(0.005, 0.56, 0.58, 1.59);
+          animation: temp 1s 0.7s infinite cubic-bezier(0.005, 0.56, 0.58, 1.59);
+  width: 4.5px;
+  height: 4.5px;
+  margin: 0 2px;
+  border-radius: 20%;
+}
+#loader-7 span:nth-child(15) {
+  -webkit-animation: temp 1s 0.75s infinite cubic-bezier(0.005, 0.56, 0.58, 1.59);
+          animation: temp 1s 0.75s infinite cubic-bezier(0.005, 0.56, 0.58, 1.59);
+  width: 4.5px;
+  height: 4.5px;
+  margin: 0 2px;
+  border-radius: 20%;
+}
+#loader-7 span:nth-child(16) {
+  -webkit-animation: temp 1s 0.8s infinite cubic-bezier(0.005, 0.56, 0.58, 1.59);
+          animation: temp 1s 0.8s infinite cubic-bezier(0.005, 0.56, 0.58, 1.59);
+  width: 4.5px;
+  height: 4.5px;
+  margin: 0 2px;
+  border-radius: 20%;
+}
+#loader-7 span:nth-child(17) {
+  -webkit-animation: temp 1s 0.85s infinite cubic-bezier(0.005, 0.56, 0.58, 1.59);
+          animation: temp 1s 0.85s infinite cubic-bezier(0.005, 0.56, 0.58, 1.59);
+  width: 4.5px;
+  height: 4.5px;
+  margin: 0 2px;
+  border-radius: 20%;
+}
+#loader-7 span:nth-child(18) {
+  -webkit-animation: temp 1s 0.9s infinite cubic-bezier(0.005, 0.56, 0.58, 1.59);
+          animation: temp 1s 0.9s infinite cubic-bezier(0.005, 0.56, 0.58, 1.59);
+  width: 4.5px;
+  height: 4.5px;
+  margin: 0 2px;
+  border-radius: 20%;
+}
+#loader-7 span:nth-child(19) {
+  -webkit-animation: temp 1s 0.95s infinite cubic-bezier(0.005, 0.56, 0.58, 1.59);
+          animation: temp 1s 0.95s infinite cubic-bezier(0.005, 0.56, 0.58, 1.59);
+  width: 4.5px;
+  height: 4.5px;
+  margin: 0 2px;
+  border-radius: 20%;
+}
+#loader-7 span:nth-child(20) {
+  -webkit-animation: temp 1s 1s infinite cubic-bezier(0.005, 0.56, 0.58, 1.59);
+          animation: temp 1s 1s infinite cubic-bezier(0.005, 0.56, 0.58, 1.59);
+  width: 4.5px;
+  height: 4.5px;
+  margin: 0 2px;
+  border-radius: 20%;
+}
+
+.specialicons{
+  text-align: center;
+  position: absolute;
+  margin-left: auto;
+  margin-right: auto;
+  left: 0;
+  right: 0;
+  color: #fff;
+  display: inline-flex;
+  left: 39%;
+  margin-top: 7vh;
+  z-index: 9000;
+}
+
+.specialicons .row{
+  width: 100%;
+}
+.specialicons .col{
+  border-radius: 50%;
+  width: 40px;
+  height: 40px;
+  margin-left: 5%;
+  background-color: transparent;
+}
+
+.specialicons i{
+  margin-top: 1.4%;
+  position: absolute;
+  margin-left: -0.85%;
+  z-index: 9000;
+}
+
+.extra{
+  margin-left: -0.7% !important;
 }
 
 
 
 
-
-
+@-webkit-keyframes temp {
+  50% {
+    -webkit-transform: scale(1, 5);
+            transform: scale(1, 5);
+    background: #195c53;
+  }
+}
+@keyframes temp {
+  50% {
+    -webkit-transform: scale(1, 5);
+            transform: scale(1, 5);
+    background: #195c53;
+  }
+}
 
 @keyframes animStar {
   from {
