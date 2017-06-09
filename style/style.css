@@ -249,6 +249,37 @@ html {
   border-radius: 50%;
 }
 
+.armps1 {
+  position: absolute;
+	width: 32px;
+	height: 1px;
+	background-color: #fff;
+	margin-top: 62.3vh;
+	margin-left: 54.8vw;
+  transform: rotate(50deg);
+}
+
+.armps2{
+  position: absolute;
+	width: 15px;
+	height: 1px;
+	background-color: #fff;
+	margin-top: 63.8vh;
+	margin-left: 56.6vw;
+}
+
+.armps3{
+  position: absolute;
+  width: 8px;
+  height: 8px;
+  z-index: 1000;
+  background-color: #fff;
+  margin-top: 60.4vh;
+	margin-left: 55vw;
+  transform: rotate(40deg);
+  border-radius: 50%;
+}
+
 .armcontent {
   /*position: absolute;*/
   width: 100%;
@@ -267,7 +298,7 @@ html {
   width: auto;
   min-width: 2vw;
   min-height: 7vh;
-  margin-top: 48.1vh;
+  margin-top: 54.1vh;
   margin-left: 57.9vw;
 }
 
