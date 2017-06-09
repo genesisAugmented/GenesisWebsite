@@ -95,6 +95,35 @@ html {
     animation:spin 150s linear infinite;
 }
 
+.charactera {
+  position: absolute;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  top: 20%;
+
+  margin: 0 auto;
+  left: 0;
+  right: 0;
+
+  color: #FFF;
+  text-align: center;
+  font-family: "lato", sans-serif;
+  font-weight: 300;
+  font-size: 50px;
+  letter-spacing: 10px;
+
+  /*margin-left: 42vw;*/
+  width: 16vw;
+  filter: saturate(60%);
+  position: absolute;
+}
+
+.charactera img {
+  width: 80%;
+  height: 80%;
+}
+
 .ringa {
   height: 300px;
   width: 300px;
