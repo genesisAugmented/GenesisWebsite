@@ -176,7 +176,7 @@ html {
 	border-radius: 5px;
 	text-align: center;
 	color: #fff;
-  	font-family: 'covesb';
+	font-family: 'covesb';
 	padding-top: 0.5%;
 	font-size: 14px;
 }
@@ -220,11 +220,11 @@ html {
 
 .armt {
   position: absolute;
-	width: 50px;
+	width: 30px;
 	height: 1px;
 	background-color: #fff;
-	margin-top: 40vh;
-	margin-left: 54vw;
+	margin-top: 39.2vh;
+	margin-left: 55.2vw;
   transform: rotate(-40deg);
 }
 
@@ -235,6 +235,28 @@ html {
 	background-color: #fff;
 	margin-top: 38vh;
 	margin-left: 57vw;
+}
+
+.armt3 {
+  position: absolute;
+  width: 5px;
+  height: 5px;
+  background-color: #fff;
+  margin-top: 40.1vh;
+  margin-left: 50.785vw;
+  transform: rotate(40deg);
+  border-radius: 50%;
+}
+
+.armcontent {
+  /*position: absolute;*/
+  width: 100%;
+	margin-top: -1.3em;
+  font-size: 2em;
+  text-align: center;
+  color: #fff;
+  font-family: 'covesb';
+  text-transform: uppercase;
 }
 
 .greybar{
