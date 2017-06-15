@@ -375,6 +375,15 @@
   text-transform: uppercase;
 }
 
+.armcontent span {
+	position: absolute;
+	width: 100%;
+	display: block;
+	margin-top: 2vh;
+	font-size: 18px;
+
+}
+
 .statparent {
   position: absolute;
   align-items: center;
@@ -397,6 +406,24 @@
   text-align: center;
   border-radius: 4px;
   background-color: rgba(0, 0, 0, 0.8);
+}
+
+.character-bar {
+	display: flex !important;
+	justify-content: center;
+	margin-left: 0;
+
+}
+
+.character-bar img{
+	width: auto;
+  max-height: 8vh;
+  position: absolute;
+  object-fit: cover;
+}
+
+.character-bar h3 {
+	padding-left: 6vw;
 }
 
 .planetstat span {
@@ -524,7 +551,7 @@ li {
 }
 
 .planetpage {
-  
+
 }
 
 li h3{
@@ -582,6 +609,61 @@ li h4{
   position: absolute;
   margin-left: 17.5vw;
 }
+
+/* BEGIN HEROES PAGE CSS */
+
+.hero-container {
+	display: flex;
+	flex-wrap: wrap;
+	align-items: center;
+	justify-content: center;
+	position: absolute;
+	left: 10vw;
+	top: 20%;
+	background-color: rgba(0, 0, 0, 0.5);
+	padding: 5px;
+	width: 60vw;
+	height: 65vh;
+	z-index:-1;
+	border-radius: 10px;
+}
+
+.hero-item {
+	display: inline-block;
+	position: relative;
+	margin: 5px;
+	width: 23%;
+	text-align: center;
+
+	height: 200px;
+	background-color: red;
+}
+
+.hero-item img {
+	width: 50%;
+	height: auto;
+}
+
+.character-container {
+	width: 100%;
+	height: auto;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+}
+
+.charactera {
+
+	/*margin-top: -1vh;*/
+  width: auto;
+	height: auto;
+	max-height: 75vh;
+  /*filter: saturate(60%);*/
+
+	z-index: -1;
+}
+
+/* END HEROES PAGE CSS */
 
 #loader-7 span {
   display: inline-block;
