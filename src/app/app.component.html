@@ -1,20 +1,119 @@
-<!--The whole content below can be removed with the new code.-->
-<div style="text-align:center">
-  <h1>
-    Welcome to {{title}}!!
-  </h1>
-  <img width="300" src="data:image/svg+xml;base64,PD94bWwgdmVyc2lvbj0iMS4wIiBlbmNvZGluZz0idXRmLTgiPz4NCjwhLS0gR2VuZXJhdG9yOiBBZG9iZSBJbGx1c3RyYXRvciAxOS4xLjAsIFNWRyBFeHBvcnQgUGx1Zy1JbiAuIFNWRyBWZXJzaW9uOiA2LjAwIEJ1aWxkIDApICAtLT4NCjxzdmcgdmVyc2lvbj0iMS4xIiBpZD0iTGF5ZXJfMSIgeG1sbnM9Imh0dHA6Ly93d3cudzMub3JnLzIwMDAvc3ZnIiB4bWxuczp4bGluaz0iaHR0cDovL3d3dy53My5vcmcvMTk5OS94bGluayIgeD0iMHB4IiB5PSIwcHgiDQoJIHZpZXdCb3g9IjAgMCAyNTAgMjUwIiBzdHlsZT0iZW5hYmxlLWJhY2tncm91bmQ6bmV3IDAgMCAyNTAgMjUwOyIgeG1sOnNwYWNlPSJwcmVzZXJ2ZSI+DQo8c3R5bGUgdHlwZT0idGV4dC9jc3MiPg0KCS5zdDB7ZmlsbDojREQwMDMxO30NCgkuc3Qxe2ZpbGw6I0MzMDAyRjt9DQoJLnN0MntmaWxsOiNGRkZGRkY7fQ0KPC9zdHlsZT4NCjxnPg0KCTxwb2x5Z29uIGNsYXNzPSJzdDAiIHBvaW50cz0iMTI1LDMwIDEyNSwzMCAxMjUsMzAgMzEuOSw2My4yIDQ2LjEsMTg2LjMgMTI1LDIzMCAxMjUsMjMwIDEyNSwyMzAgMjAzLjksMTg2LjMgMjE4LjEsNjMuMiAJIi8+DQoJPHBvbHlnb24gY2xhc3M9InN0MSIgcG9pbnRzPSIxMjUsMzAgMTI1LDUyLjIgMTI1LDUyLjEgMTI1LDE1My40IDEyNSwxNTMuNCAxMjUsMjMwIDEyNSwyMzAgMjAzLjksMTg2LjMgMjE4LjEsNjMuMiAxMjUsMzAgCSIvPg0KCTxwYXRoIGNsYXNzPSJzdDIiIGQ9Ik0xMjUsNTIuMUw2Ni44LDE4Mi42aDBoMjEuN2gwbDExLjctMjkuMmg0OS40bDExLjcsMjkuMmgwaDIxLjdoMEwxMjUsNTIuMUwxMjUsNTIuMUwxMjUsNTIuMUwxMjUsNTIuMQ0KCQlMMTI1LDUyLjF6IE0xNDIsMTM1LjRIMTA4bDE3LTQwLjlMMTQyLDEzNS40eiIvPg0KPC9nPg0KPC9zdmc+DQo=" />
-</div>
-<h2>Here are some links to help you start: </h2>
-<ul>
-  <li>
-    <h2><a target="_blank" href="https://angular.io/docs/ts/latest/tutorial/">Tour of Heroes</a></h2>
-  </li>
-  <li>
-    <h2><a target="_blank" href="https://github.com/angular/angular-cli/wiki">CLI Documentation</a></h2>
-  </li>
-  <li>
-    <h2><a target="_blank" href="http://angularjs.blogspot.ca/">Angular blog</a></h2>
-  </li>
-</ul>
+  <div class="starwrapper">
+      <div id='stars'></div>
+      <div id='stars2'></div>
+      <div id='stars3'></div>
+    </div>
+
+    <div class="greybar"></div>
+
+    <img class="backa animated pulse infinite" src="https://upload.wikimedia.org/wikipedia/commons/5/50/Translucent_Helix_Nebula.png">
+    <div class="row specialicons">
+      <div class="col" style="border: 2px solid #C11C99;"><i class="fa fa-space-shuttle" aria-hidden="true"></i></div>
+      <div class="col" style="border: 2px solid #4C809E;"><i class="fa fa-trophy" aria-hidden="true"></i></div>
+      <div class="col" style="border: 2px solid #E51A79;"><i class="fa extra fa-bookmark-o" aria-hidden="true"></i></div>
+    </div>
+
+    <h1 class="pagename">Genesis Planets <i class="fa fa-globe" aria-hidden="true"></i></h1>
+
+    <div *ngIf="!profile">
+      <h2 class="pagesubtitle">System Data</h2>
+    </div>
+
+    <div *ngIf="!profile">
+      <ul>
+        <li class="planets"  *ngFor="let item of items | async" (click)="select(item)"><img src="{{item.URL}}"> <h3>{{item.Name}}</h3><h4>LvL: {{item.lvl}}</h4></li>
+      </ul>
+    </div>
+
+    <div id="loader-7">
+      <span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span>
+    </div>
+    
+    <div *ngIf="!profile">
+      <div class="planetinfo">
+        <div class="row">
+          <div class="col">Reputation</div>
+          <div class="col">Population</div>
+          <div class="col">Daily Income</div>
+        </div>
+
+        <div class="row planetcounters">
+          <div class="col">3250 / 4000<div class="backline"><div class="backloading"></div></div></div>
+          <div class="col">12 / 48<div class="backline"><div class="backloading2"></div></div></div>
+          <div class="col">22 &#164;</div>
+        </div>
+
+      </div>
+    </div>
+
+    <div class="accountblock">
+      <div class="accountrow">
+        <span class="fluxamount">200 <i class="fa fa-gg" aria-hidden="true"></i></span>
+        <span class="username">Gillamere</span>
+      </div>
+      <!-- <div class="accountrow">
+        <span class="fluxamount">10 <i class="fa fa-optin-monster" aria-hidden="true"></i></span>
+        <span class="username">Drifters</span>
+      </div> -->
+    </div>
+
+    <div *ngIf="!profile">
+      <div class="ringa relaya"></div>
+
+      <div class="levelblock">LvL<span>{{itemlvl}}</span></div>
+      <div class="arma"></div><div class="armb"></div><div class="armc"></div>
+
+      <div class="armt3"></div><div class="armt"></div><div class="armt2"><div class="armcontent">{{itemname}}</div></div>
+
+      <div class="armps3"></div><div class="armps1"></div><div class="armps2"></div>
+
+      <div class="statparent">
+        <div class="planetstat"><span>Lava Terrain</span></div>
+        <div class="planetstat"><span>10.8G Gravity</span></div>
+        <div class="planetstat"><span>12/48 Population</span></div>
+      </div>
+    </div>
+
+    <div class="menublock"><span><i class="fa fa-compass" aria-hidden="true"></i></span></div>
+    <div class="menublock menuleft" (click)="planetpage()"><span><i class="fa fa-superpowers" aria-hidden="true"></i></span></div>
+    <div class="menublock menuright" (click)="planetpage()"><span><i class="fa fa-leaf" aria-hidden="true"></i></span></div>
+    <div class="menublock menubottom"><span><i class="fa fa-bolt" aria-hidden="true"></i></span></div>
+
+    <div class="alertmodule">
+      <div class="alertblock">
+        <span><i class="fa fa-exclamation" aria-hidden="true"></i></span>
+      </div>
+      <div class="alert-text">
+        <span>New Notification Active</span>
+      </div>
+    </div>
+
+    <div *ngIf="!profile">
+      <img src="{{myimage}}" class="planeta" />
+    </div>
+
+
+  <div *ngIf="profile">
+
+
+
+  
+  </div>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 

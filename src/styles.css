@@ -1,1 +1,16 @@
-/* You can add global styles to this file, and also import other style files */
+@font-face {
+  font-family: 'covesb';
+  src: url('fonts/covesb.otf');
+}
+
+@font-face {
+  font-family: 'coves';
+  src: url('fonts/coves.otf');
+}
+
+body {
+  background: radial-gradient(ellipse at top left, #1b2735 47%, #090a0f 100%);
+  overflow: hidden;
+  padding: 0;
+  margin: 0;
+}
