@@ -365,22 +365,14 @@
 }
 
 .armcontent {
+  /*position: absolute;*/
   width: 100%;
-	margin-left: -10px;
+	margin-top: -1.3em;
   font-size: 2em;
   text-align: center;
   color: #fff;
   font-family: 'covesb';
   text-transform: uppercase;
-}
-
-.armcontent span {
-	position: absolute;
-	width: 100%;
-	display: block;
-	margin-top: 2vh;
-	font-size: 18px;
-
 }
 
 .statparent {
@@ -405,24 +397,6 @@
   text-align: center;
   border-radius: 4px;
   background-color: rgba(0, 0, 0, 0.8);
-}
-
-.character-bar {
-	display: flex !important;
-	justify-content: center;
-	margin-left: 0;
-
-}
-
-.character-bar img{
-	width: auto;
-  max-height: 8vh;
-  position: absolute;
-  object-fit: cover;
-}
-
-.character-bar h3 {
-	padding-left: 6vw;
 }
 
 .planetstat span {
@@ -550,7 +524,7 @@ li {
 }
 
 .planetpage {
-
+  
 }
 
 li h3{
@@ -576,7 +550,7 @@ li h4{
   margin-right: auto;
   left: 0;
   right: 0;
-  width: 50%;
+  width: 60%;
 
   animation-duration: 6s !important
 }
@@ -608,92 +582,6 @@ li h4{
   position: absolute;
   margin-left: 17.5vw;
 }
-
-/* BEGIN HEROES PAGE CSS */
-
-.hero-container {
-	display: flex;
-	flex-wrap: wrap;
-	align-items: center;
-	justify-content: center;
-	position: absolute;
-	left: 10vw;
-	top: 20%;
-	background-color: rgba(0, 0, 0, 0.5);
-	padding: 5px;
-	width: 60vw;
-	height: 65vh;
-	z-index:-1;
-	border-radius: 10px;
-}
-
-.hero-item {
-	display: inline-block;
-	position: relative;
-	margin: 5px;
-	width: 23%;
-	text-align: center;
-
-	height: 200px;
-	background-color: red;
-}
-
-.hero-item img {
-	width: 50%;
-	height: auto;
-}
-
-.character-container {
-	width: 100%;
-	height: auto;
-	display: flex;
-	align-items: center;
-	justify-content: center;
-}
-
-.charactera {
-
-	/*margin-top: -1vh;*/
-  width: auto;
-	height: auto;
-	max-height: 75vh;
-  /*filter: saturate(60%);*/
-
-	z-index: -1;
-}
-
-.c_arma{
-	position: absolute;
-	width: 10.594px;
-	height: 1px;
-	background-color: #fff;
-	margin-top: 38vh;
-	margin-left: 41.8vw;
-}
-
-.c_armb{
-	position: absolute;
-	width: 30.5px;
-	height: 1px;
-	background-color: #fff;
-	margin-top: 39.279vh;
-	margin-left: 42.29vw;
-	transform: rotate(40deg);
-}
-
-.c_armc{
-	position: absolute;
-	width: 5px;
-	height: 5px;
-	background-color: #fff;
-	margin-top: 40.1vh;
-	margin-left: 43.785vw;
-	transform: rotate(40deg);
-	border-radius: 50%;
-  z-index: 9000;
-}
-
-/* END HEROES PAGE CSS */
 
 #loader-7 span {
   display: inline-block;
