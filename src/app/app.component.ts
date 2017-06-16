@@ -23,9 +23,8 @@ export class AppComponent {
 
   c_name: string = 'Osirus';
   c_secondary: string = 'Intergalactic Sheriff';
-  c_img_url = 'http://i.imgur.com/DvqyCFn.png';
-  c_icon_url = '';
-
+  c_img_url: string = 'http://i.imgur.com/DvqyCFn.png';
+  c_icon_url: string = '';
 
   constructor(public af: AngularFireDatabase) {
     this.items = af.list('/Planets');
@@ -34,7 +33,6 @@ export class AppComponent {
     this.profile = true
 
     this.characters = af.list('/Characters');
-
   }
 
   select(item: any) {
